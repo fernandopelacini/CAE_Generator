@@ -1,0 +1,1096 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GeneradorCAE
+</name>
+</assembly>
+<members>
+<member name="M:GeneradorCAE.Funciones.GetServerDate">
+	<summary>
+ Obtiene la fecha del servidor de base de datos.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.Funciones.EncriptarMD5(System.String)">
+	<summary>
+ Encripta los datos para generar la licencia utilizando MD5
+ </summary>
+	<param name="strPass"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.Funciones.ValidarCUIT(System.String)">
+	<summary>
+ Funcion que valida cuit
+ </summary>
+	<param name="strNroCuit">cuit a verificar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.wsfe.Service.#ctor">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FECAESolicitarCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FECompTotXRequestCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEDummyCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FECompUltimoAutorizadoCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FECompConsultarCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FECAEARegInformativoCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FECAEASolicitarCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FECAEASinMovimientoConsultarCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FECAEASinMovimientoInformarCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FECAEAConsultarCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetCotizacionCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetTiposTributosCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetTiposMonedasCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetTiposIvaCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetTiposOpcionalCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetTiposConceptoCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetPtosVentaCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetTiposCbteCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetTiposDocCompleted">
+	<remarks/>
+</member><member name="E:GeneradorCAE.wsfe.Service.FEParamGetTiposPaisesCompleted">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAESolicitar(GeneradorCAE.wsfe.FEAuthRequest,GeneradorCAE.wsfe.FECAERequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAESolicitarAsync(GeneradorCAE.wsfe.FEAuthRequest,GeneradorCAE.wsfe.FECAERequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAESolicitarAsync(GeneradorCAE.wsfe.FEAuthRequest,GeneradorCAE.wsfe.FECAERequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECompTotXRequest(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECompTotXRequestAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECompTotXRequestAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEDummy">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEDummyAsync">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEDummyAsync(System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECompUltimoAutorizado(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECompUltimoAutorizadoAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECompUltimoAutorizadoAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECompConsultar(GeneradorCAE.wsfe.FEAuthRequest,GeneradorCAE.wsfe.FECompConsultaReq)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECompConsultarAsync(GeneradorCAE.wsfe.FEAuthRequest,GeneradorCAE.wsfe.FECompConsultaReq)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECompConsultarAsync(GeneradorCAE.wsfe.FEAuthRequest,GeneradorCAE.wsfe.FECompConsultaReq,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEARegInformativo(GeneradorCAE.wsfe.FEAuthRequest,GeneradorCAE.wsfe.FECAEARequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEARegInformativoAsync(GeneradorCAE.wsfe.FEAuthRequest,GeneradorCAE.wsfe.FECAEARequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEARegInformativoAsync(GeneradorCAE.wsfe.FEAuthRequest,GeneradorCAE.wsfe.FECAEARequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEASolicitar(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.Int16)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEASolicitarAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.Int16)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEASolicitarAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.Int16,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEASinMovimientoConsultar(GeneradorCAE.wsfe.FEAuthRequest,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEASinMovimientoConsultarAsync(GeneradorCAE.wsfe.FEAuthRequest,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEASinMovimientoConsultarAsync(GeneradorCAE.wsfe.FEAuthRequest,System.String,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEASinMovimientoInformar(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEASinMovimientoInformarAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEASinMovimientoInformarAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEAConsultar(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.Int16)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEAConsultarAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.Int16)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FECAEAConsultarAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Int32,System.Int16,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetCotizacion(GeneradorCAE.wsfe.FEAuthRequest,System.String)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetCotizacionAsync(GeneradorCAE.wsfe.FEAuthRequest,System.String)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetCotizacionAsync(GeneradorCAE.wsfe.FEAuthRequest,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposTributos(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposTributosAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposTributosAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposMonedas(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposMonedasAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposMonedasAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposIva(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposIvaAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposIvaAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposOpcional(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposOpcionalAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposOpcionalAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposConcepto(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposConceptoAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposConceptoAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetPtosVenta(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetPtosVentaAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetPtosVentaAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposCbte(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposCbteAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposCbteAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposDoc(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposDocAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposDocAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposPaises(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposPaisesAsync(GeneradorCAE.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.FEParamGetTiposPaisesAsync(GeneradorCAE.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.wsfe.Service.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.Service">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEAuthRequest.Token">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEAuthRequest.Sign">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEAuthRequest.Cuit">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEAuthRequest">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.PaisTipo.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.PaisTipo.Desc">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.PaisTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEPaisResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEPaisResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEPaisResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEPaisResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Err.Code">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Err.Msg">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.Err">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Evt.Code">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Evt.Msg">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.Evt">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DocTipo.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DocTipo.Desc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DocTipo.FchDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DocTipo.FchHasta">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.DocTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DocTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DocTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DocTipoResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.DocTipoResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteTipo.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteTipo.Desc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteTipo.FchDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteTipo.FchHasta">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.CbteTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteTipoResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.CbteTipoResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.PtoVenta.Nro">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.PtoVenta.EmisionTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.PtoVenta.Bloqueado">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.PtoVenta.FchBaja">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.PtoVenta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEPtoVentaResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEPtoVentaResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEPtoVentaResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEPtoVentaResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.ConceptoTipo.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.ConceptoTipo.Desc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.ConceptoTipo.FchDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.ConceptoTipo.FchHasta">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.ConceptoTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.ConceptoTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.ConceptoTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.ConceptoTipoResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.ConceptoTipoResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.OpcionalTipo.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.OpcionalTipo.Desc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.OpcionalTipo.FchDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.OpcionalTipo.FchHasta">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.OpcionalTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.OpcionalTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.OpcionalTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.OpcionalTipoResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.OpcionalTipoResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.IvaTipo.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.IvaTipo.Desc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.IvaTipo.FchDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.IvaTipo.FchHasta">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.IvaTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.IvaTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.IvaTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.IvaTipoResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.IvaTipoResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Moneda.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Moneda.Desc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Moneda.FchDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Moneda.FchHasta">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.Moneda">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.MonedaResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.MonedaResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.MonedaResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.MonedaResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.TributoTipo.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.TributoTipo.Desc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.TributoTipo.FchDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.TributoTipo.FchHasta">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.TributoTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FETributoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FETributoResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FETributoResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FETributoResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Cotizacion.MonId">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Cotizacion.MonCotiz">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Cotizacion.FchCotiz">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.Cotizacion">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECotizacionResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECotizacionResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECotizacionResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECotizacionResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMov.CAEA">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMov.FchProceso">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMov.PtoVta">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEASinMov">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMovResponse.Resultado">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMovResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMovResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEASinMovResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMovConsResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMovConsResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMovConsResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEASinMovConsResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGet.CAEA">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGet.Periodo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGet.Orden">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGet.FchVigDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGet.FchVigHasta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGet.FchTopeInf">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGet.FchProceso">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEAGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGetResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGetResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAGetResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEAGetResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAResponse.FeCabResp">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAResponse.FeDetResp">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAResponse.Events">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAResponse.Errors">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEAResponse">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEACabResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabResponse.Cuit">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabResponse.PtoVta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabResponse.CbteTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabResponse.FchProceso">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabResponse.CantReg">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabResponse.Resultado">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabResponse.Reproceso">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECabResponse">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAECabResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEADetResponse.CAEA">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEADetResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetResponse.Concepto">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetResponse.DocTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetResponse.DocNro">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetResponse.CbteDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetResponse.CbteHasta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetResponse.CbteFch">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetResponse.Resultado">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetResponse.Observaciones">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEDetResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Obs.Code">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Obs.Msg">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.Obs">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEDetResponse.CAE">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEDetResponse.CAEFchVto">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEDetResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEARequest.FeCabReq">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEARequest.FeDetReq">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEARequest">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEACabRequest">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabRequest.CantReg">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabRequest.PtoVta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECabRequest.CbteTipo">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECabRequest">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAECabRequest">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEADetRequest.CAEA">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEADetRequest">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.Concepto">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.DocTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.DocNro">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.CbteDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.CbteHasta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.CbteFch">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.ImpTotal">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.ImpTotConc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.ImpNeto">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.ImpOpEx">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.ImpTrib">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.ImpIVA">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.FchServDesde">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.FchServHasta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.FchVtoPago">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.MonId">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.MonCotiz">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.CbtesAsoc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.Tributos">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.Iva">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDetRequest.Opcionales">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEDetRequest">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteAsoc.Tipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteAsoc.PtoVta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.CbteAsoc.Nro">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.CbteAsoc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Tributo.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Tributo.Desc">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Tributo.BaseImp">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Tributo.Alic">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Tributo.Importe">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.Tributo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.AlicIva.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.AlicIva.BaseImp">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.AlicIva.Importe">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.AlicIva">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Opcional.Id">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.Opcional.Valor">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.Opcional">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEDetRequest">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsResponse.Resultado">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsResponse.CodAutorizacion">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsResponse.EmisionTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsResponse.FchVto">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsResponse.FchProceso">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsResponse.Observaciones">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsResponse.PtoVta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsResponse.CbteTipo">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECompConsResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsultaResponse.ResultGet">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsultaResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsultaResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECompConsultaResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsultaReq.CbteTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsultaReq.CbteNro">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsultaReq.PtoVta">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECompConsultaReq">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FERecuperaLastCbteResponse.PtoVta">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FERecuperaLastCbteResponse.CbteTipo">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FERecuperaLastCbteResponse.CbteNro">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FERecuperaLastCbteResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FERecuperaLastCbteResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FERecuperaLastCbteResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DummyResponse.AppServer">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DummyResponse.DbServer">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.DummyResponse.AuthServer">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.DummyResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FERegXReqResponse.RegXReq">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FERegXReqResponse.Errors">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FERegXReqResponse.Events">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FERegXReqResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEResponse.FeCabResp">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEResponse.FeDetResp">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEResponse.Events">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEResponse.Errors">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEResponse">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAERequest.FeCabReq">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAERequest.FeDetReq">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAERequest">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAESolicitarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAESolicitarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAESolicitarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECompTotXRequestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompTotXRequestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECompTotXRequestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEDummyCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEDummyCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEDummyCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECompUltimoAutorizadoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompUltimoAutorizadoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECompUltimoAutorizadoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECompConsultarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECompConsultarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECompConsultarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEARegInformativoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEARegInformativoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEARegInformativoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEASolicitarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASolicitarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEASolicitarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEASinMovimientoConsultarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMovimientoConsultarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEASinMovimientoConsultarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEASinMovimientoInformarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEASinMovimientoInformarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEASinMovimientoInformarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEAConsultarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FECAEAConsultarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FECAEAConsultarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetCotizacionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetCotizacionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetCotizacionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposTributosCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetTiposTributosCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposTributosCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposMonedasCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetTiposMonedasCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposMonedasCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposIvaCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetTiposIvaCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposIvaCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposOpcionalCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetTiposOpcionalCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposOpcionalCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposConceptoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetTiposConceptoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposConceptoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetPtosVentaCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetPtosVentaCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetPtosVentaCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposCbteCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetTiposCbteCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposCbteCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposDocCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetTiposDocCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposDocCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposPaisesCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.wsfe.FEParamGetTiposPaisesCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.wsfe.FEParamGetTiposPaisesCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GeneradorCAE.dsDatos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.#ctor(GeneradorCAE.clsSQLDataManagement.Providers,System.String,System.String,System.String,System.String)">
+	<summary>
+ Initializes the class, indicating the provider use to connect to database
+ </summary>
+	<param name="intProvider"></param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.InitializeCommand">
+	<summary>
+ Initializes the command
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.CloseConnection(GeneradorCAE.clsSQLDataManagement.Providers)">
+	<summary>
+ Close the connection to the database
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.OpenConnection">
+	<summary>
+ Opens the connection to the database
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.PrepareCommand(System.String)">
+	<summary>
+ Adds the query to the Command.CommandText property
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteQuery(System.String)">
+	<summary>
+Executes a query and returns the results in a datareader
+ Used for SELECT queries
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<returns>The query resutls.</returns>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteScalar(System.String)">
+	<summary>
+ Executes an scalar
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<returns>Scalar result</returns>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteNonQuery(System.String)">
+	<summary>
+ Executes a non query command.
+ Used for DELETE, INSERT or UPDATE operations
+ </summary>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.TestConnection">
+	<summary>
+ Test connection to SQL Server
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.BeginTransaction">
+	<summary>
+ Begins a transaction
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.CommitTransaction">
+	<summary>
+ Commits a transaction
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.RollbackTransaction">
+	<summary>
+ Rollbacks a transaction
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.Dispose">
+	<summary>
+ Destroy the object
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.PrepareDataset(System.String)">
+	<summary>
+ Prepares the basic commands for the dataset
+ </summary>
+	<param name="strQuery"></param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.PrepareCommandForSP(System.String,System.Data.OleDb.OleDbParameterCollection)">
+	<summary>
+ Sets the command to execute stored procedures
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.PrepareCommandForSP(System.String,System.String,System.String)">
+	<summary>
+ Sets the command to execute stored procedures
+ </summary>
+	<param name="strQuery">Nombre del store procedure a ejecutar</param>
+	<param name="strParametroNombre">nombre del parametro o variable del SP</param>
+	<param name="strParametroValor">Valor que se asigna al parametro del SP </param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.PrepareCommandForSP(System.String,System.Int32,System.String)">
+	<summary>
+ Sets the command to execute stored procedures
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<param name="strParametroNombre">Paremetro unico</param>
+	<param name="intParametroValor"></param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteDataset(System.String,System.String,System.Boolean,System.Data.OleDb.OleDbParameterCollection,GeneradorCAE.dsDatos)">
+	<summary>
+ Executes a query a returns the results in a dataset.
+ </summary>
+	<param name="strQuery">Query to be executed or SP name</param>
+	<param name="strTableName">Table name, this will be used to fill the dataset
+ through the adapter and using the table name</param>
+	<param name="blnStoredProcedure">Indica si se va a ejecutar un stored procedure o una query normal</param>
+	<param name="oParametros">Colleccion de parametros del SP</param>
+	<returns>Dataset</returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteDataset(System.String,System.String,System.String,System.String,System.Boolean,GeneradorCAE.dsDatos)">
+	<summary>
+ Executes a query a returns the results in a dataset.
+ </summary>
+	<param name="strQuery">Query to be executed or SP name</param>
+	<param name="strTableName">Table name, this will be used to fill the dataset
+ through the adapter and using the table name</param>
+	<param name="strParametro">Nombre del parametro en el SP</param>
+	<param name="strValor">VAlor a asignar a la variable</param>
+	<param name="blnStoredProcedure">Indica si se va a ejecutar un stored procedure o una query normal</param>
+  Colleccion de parametros del SP
+ <returns>Dataset</returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteSPNonQuery(System.String,System.String,System.String)">
+	<summary>
+ Ejecuta un SP con un solo parametro
+ </summary>
+	<param name="strProcedureName">Nombre del procedimiento almacenado a ejecutar</param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteSPNonQuery(System.String,System.String,System.Int32)">
+	<summary>
+ Ejecuta un SP con un solo parametro
+ </summary>
+	<param name="strProcedureName">Nombre del SP a ejecutar</param>
+	<param name="strParametroNombre">Nombre del parametro del SP</param>
+	<param name="intValor">Valor a asignar a la variable</param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteSPNonQuery(System.String,System.Data.OleDb.OleDbParameterCollection)">
+	<summary>
+ Ejecuta un SP con varios parametros
+ </summary>
+	<param name="strProcedureName">Nombre del procedimiento almacenado a ejecutar</param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteReaderStoredProcedure(System.String,System.String,System.String)">
+	<summary>
+Executes a SP and returns the results in a datareader
+ Used for SELECT queries
+ </summary>
+	<param name="strStoredProcedure">Nombre del stored procedure a ejecutar</param>
+	<param name="strParametroNombre">Nombre  del parametro del SP</param>
+	<param name="strValor">Valor que se asigna a la varible del SP</param>
+	<returns>The query resutls.</returns>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteReaderStoredProcedure(System.String,System.Data.OleDb.OleDbParameterCollection)">
+	<summary>
+Executes a SP and returns the results in a datareader
+ Used for SELECT queries
+ </summary>
+	<param name="strStoredProcedure">Nombre del stored procedure a ejecutar</param>
+	<param name="oParametros">Colecion de parametros del SP</param>
+	<returns>The query resutls.</returns>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteSPScalar(System.String,System.String,System.String)">
+	<summary>
+ Ejecuta un Scalar de un SP con un parametro
+ </summary>
+	<param name="strProcedureName">Nombre del SP a ejecutar</param>
+	<param name="strParametroNombre">Nombre del parametro del SP</param>
+	<param name="strValor">Valor para ese parametro</param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.clsSQLDataManagement.ExecuteSPScalar(System.String,System.Data.OleDb.OleDbParameterCollection)">
+	<summary>
+ Ejecuta un Scalar de un SP con mas de un parametro 
+ </summary>
+	<param name="strProcedureName">Nombre del SP a ejecutar</param>
+	<param name="oParametros">Collecion de parametros con sus valores</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GeneradorCAE.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GeneradorCAE.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GeneradorCAE.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:GeneradorCAE.CertificadoParametro.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.CertificadoParametro.ObtenerParametrosCertificado(System.String,GeneradorCAE.CertificadoParametro@)">
+	<summary>
+ Obtiene la configuracion de los datos de un webservice para generar el token y sign
+ </summary>
+	<param name="strTipoWebService">Codigo del webservice que se va a utilizar. 
+ Ej: wsfe para factura electronica.</param>
+	<param name="oCertificado">Datos devueltos</param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.CAEA.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.CAEA.ListarCAEAdisponible(GeneradorCAE.CAEA@)">
+	<summary>
+ Lista el CAEA habilitado de la quincena
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.CAEA.InsertarCAE">
+	<summary>
+ Inserta un nuevo codigo CAE
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.CAEA.GenerarCAEA(GeneradorCAE.AuthenticationRequest)">
+	<summary>
+ Obtiene el CAE desde el webservice de AFIP
+ </summary>
+	<param name="oAuthentication"></param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.Wsaa.LoginCMSService.#ctor">
+	<remarks/>
+</member><member name="E:GeneradorCAE.Wsaa.LoginCMSService.loginCmsCompleted">
+	<remarks/>
+</member><member name="M:GeneradorCAE.Wsaa.LoginCMSService.loginCms(System.String)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.Wsaa.LoginCMSService.loginCmsAsync(System.String)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.Wsaa.LoginCMSService.loginCmsAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:GeneradorCAE.Wsaa.LoginCMSService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:GeneradorCAE.Wsaa.LoginCMSService">
+	<remarks/>
+</member><member name="T:GeneradorCAE.Wsaa.loginCmsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GeneradorCAE.Wsaa.loginCmsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GeneradorCAE.Wsaa.loginCmsCompletedEventArgs">
+	<remarks/>
+</member><member name="M:GeneradorCAE.AuthenticationRequest.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.AuthenticationRequest.ObtenerAuthenticationRequest(System.String,GeneradorCAE.AuthenticationRequest@)">
+	<summary>
+ Obtiene el authentication request, si se encuentra valido
+ </summary>
+	<param name="strTipoWebService">Codigo del webservice que se va a utilizar. 
+ Ej: wsfe para factura electronica.</param>
+	<param name="oAuthentication">Datos devueltos</param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.AuthenticationRequest.GenerarTokenYsignature(System.String,GeneradorCAE.CertificadoParametro,GeneradorCAE.AuthenticationRequest@)">
+	<summary>
+ Obtiene el token y signature para el Webservice elegido
+ </summary>
+	<param name="strTipoWebService"></param>
+	<param name="oParametros">Parametros para obtener el token</param>
+	<param name="oAuthentication">Datos devueltos</param>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.AuthenticationRequest.InsertarAuthenticationRequest">
+	<summary>
+ Inserta los nuevos datos de authentication Requesst
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.CertificadosX509Lib.FirmaBytesMensaje(System.Byte[],System.Security.Cryptography.X509Certificates.X509Certificate2)">
+	<summary>
+ Firma mensaje
+ </summary>
+	<param name="argBytesMsg">Bytes del mensaje</param>
+	<param name="argCertFirmante">Certificado usado para firmar</param>
+	<returns>Bytes del mensaje firmado</returns>
+	<remarks></remarks>
+</member><member name="M:GeneradorCAE.CertificadosX509Lib.ObtieneCertificadoDesdeArchivo(System.String,System.String)">
+	<summary>
+ Lee certificado de disco
+ </summary>
+	<param name="argArchivo">Ruta del certificado a leer.</param>
+	<returns>Un objeto certificado X509</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
